@@ -28,7 +28,7 @@ h2,
 h3 {
   color: var(--secondary-text-color);
 }
-/* ------стилизация шапки сайта------- */
+/* ----------стилизация шапки сайта----------- */
 .navigation a {
   color: var(--secondary-text-color);
   text-decoration: none;
@@ -180,7 +180,7 @@ h3 {
   color: var(--accent-color);
 }
 
-/* ---------стилизация блока Футер------------ */
+/* -----------стилизация блока Футер---------------- */
 .footer {
   color: var(--title-text-color);
   background-color: #2f303a;
@@ -222,3 +222,5 @@ h3 {
 .footer .networks:focus {
   color: var(--accent-color);
 }
+
+/* -----------------------стилизация страницы Портфолио------------------------------ */
