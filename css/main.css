@@ -17,6 +17,7 @@ body {
   background-color: #ffffff;
   color: var(--main-text-color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -31,6 +32,13 @@ h3 {
 .navigation a {
   color: var(--secondary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-link {
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -39,9 +47,14 @@ h3 {
 }
 
 /* ---логотип--- */
-.logo {
+.navigation .logo {
   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
+
 .logo-web {
   color: var(--accent-color);
 }
@@ -49,6 +62,10 @@ h3 {
 .contacts {
   color: var(--main-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts:hover,
@@ -60,23 +77,84 @@ h3 {
 .main-title {
   color: var(--title-text-color);
   background: #757575;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
   color: var(--title-text-color);
   background-color: var(--accent-color);
   text-decoration: none;
+  font-family: inherit;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+}
+
+/* -------стилизация блока Преимущества Студии--------*/
+
+.advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* -------стилизация блока Чем мы занимаемся--------*/
+.examples h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .examples h3 {
   color: var(--title-text-color);
   background: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* ---------стилизацтя блока Сотрудники------------ */
 .staff {
   background-color: #f5f4fa;
+}
+
+.staff h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.staff h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.staff p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 .networks a {
@@ -90,7 +168,57 @@ h3 {
 }
 
 /* ----------стилизация блока Постоянные клиенты---------- */
+.customer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .customer a:hover,
 .customer a:focus {
+  color: var(--accent-color);
+}
+
+/* ---------стилизация блока Футер------------ */
+.footer {
+  color: var(--title-text-color);
+  background-color: #2f303a;
+  font-style: normal;
+}
+
+.footer .logo {
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+}
+
+.footer b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.footer address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer .networks {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.footer .networks:hover,
+.footer .networks:focus {
   color: var(--accent-color);
 }
